@@ -25,7 +25,7 @@ async function config(value1, value2, value3) {
 
    acceptBtn.addEventListener('click', function(event) {
       event.preventDefault();
-      window.location = 'payment.html';
+      window.location.href = 'payment.html';
    });
  
    const rows = Array.from(document.querySelectorAll('.conf-step__row'));
